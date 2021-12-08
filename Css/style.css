@@ -1,0 +1,636 @@
+.* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap; 
+    
+}
+
+.arriba{
+    background-color:#E98125;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 12px;   
+    height: 40px;   
+}
+
+.arribatodo{
+    display: flex;   
+}
+
+.arribap{
+    margin: 18px ;   
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 00px 01px;
+    margin: 0px 40px;
+    flex-wrap: wrap;
+
+}
+
+.separador {
+    background-color: #E98125;
+    height: 6px;
+    border: none;
+}
+
+.imgsuperior{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+}
+
+.imgsuperior1{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    background-position: center;
+   
+}
+
+.opciones{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 18px;
+
+}
+
+.opcioneslist{
+    display: flex;
+    list-style: none;
+    
+}
+
+.opcionesitem{
+    margin: 0px 12px;
+
+}
+
+.complemento{
+   background-color: rgb(151, 151, 155);
+   padding: 09px 20px;
+   font-family: 'Gothic A1', sans-serif;
+   font-size: 1rem;
+   
+ 
+}
+.complementocontenedor{
+    padding: 01px 20px;
+    display: flex ;
+    align-content:center;
+    justify-content: center;
+    
+ }
+
+ .complementoparrafo{
+    padding: 01px 20px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+ }
+
+ .complementoimg{
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+  
+ }
+
+.productos{
+    background-color: rgb(151, 151, 155);
+    padding: 01px 20px;
+    font-family: 'Gothic A1', sans-serif;
+   font-size: 1rem;
+    
+  
+}
+
+.productostitulo{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.productoscontenedor{
+    display: flex;
+    gap: 20px;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.productosunidad{
+    display: flex;
+    flex-direction: column;
+}
+
+.productosimg {
+    width: 100%;
+    max-width: 210px;
+    height: 210px;
+    object-fit: cover;
+    margin: 20px;
+    background-position: center;
+}
+
+
+.metal{
+    padding: 01px 20px;
+    background-color: rgb(151, 151, 155);
+    font-family: 'Gothic A1', sans-serif;
+   font-size: 1rem;
+}
+
+.metaltitulo{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+
+
+.metalcontenedor{
+    display: flex;
+    gap: 20px;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.metalimg {
+    width: 100%;
+    max-width: 210px;
+    height: 210px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.sobrenosotros {
+    height: 350px;  
+    background-color: rgb(151, 151, 155);
+    padding: 10px 20px
+    
+    
+}
+
+.sobrenosotrostitulo { 
+    display: flex ;
+    align-content:center;
+    justify-content: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+
+.sobrenosotroscontenedor {
+    padding: 01px 20px;
+    display: flex ;
+    align-content:center;
+    justify-content: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+
+.sobrenosotrosparrafo { 
+    padding: 20px 20px;
+    display: flex ;
+    align-content:center;
+    justify-content: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+.sobrenosotrosimg {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+    
+}
+
+
+.caños{
+    background-color: rgb(151, 151, 155);
+    padding: 01px 20px;
+    font-family: 'Gothic A1', sans-serif;
+   font-size: 1rem;
+    
+  
+}
+
+.cañostitulo{
+    text-align: center; 
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+
+
+.cañoscontenedor{
+    display: flex;
+    gap: 20px;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+
+.cañosunidad{
+    display: flex;
+    flex-direction: column;
+}
+
+.cañosimg {
+    width: 100%;
+    max-width: 210px;
+    height: 210px;
+    object-fit: cover;
+    margin: 20px;
+    background-position: center;
+}
+
+.cañospres {
+    
+    background-color: rgb(151, 151, 155);
+    padding: 10px 20px
+    
+    
+}
+
+.cañosprestitulo { 
+    display: flex ;
+    align-content:center;
+    justify-content: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+
+.cañosprescontenedor {
+    padding: 01px 20px;
+    display: flex ;
+    align-content:center;
+    justify-content: center;
+    text-align: center ;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+
+.cañospresparrafo { 
+    padding: 20px 20px;
+    display: flex ;
+    align-content:center;
+    justify-content: center;
+    text-align: center ;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+
+
+
+
+
+.propia {
+   background-color: rgb(151, 151, 155);
+   padding: 01px 20px ;
+   font-family: 'Gothic A1', sans-serif;
+   font-size: 1rem;
+   
+}
+
+.propiatitulo { 
+    display: flex ;
+    align-content:center;
+    justify-content: center;  
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+
+.propiacontenedor {  
+    display: flex ;
+     
+    align-content:center;
+    justify-content: center;  
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+.propiaimg {
+    margin: 20px ;
+    object-fit: cover;
+    max-width: 300px;  
+}
+
+
+
+
+.propia2 {
+    background-color: rgb(151, 151, 155);
+    padding: 01px 20px ;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+    
+    
+ }
+ 
+ .propiatitulo2 { 
+     display: flex ;
+     align-content:center;
+     justify-content: center;  
+ }
+ 
+ .propiacontenedor2 {  
+     display: flex ;
+     align-content:center;
+     justify-content: center; 
+ 
+ }
+ .propiaimg2 {
+     margin: 20px ;
+     max-width: 600px;
+     object-fit: cover;
+     max-width: 300px;  
+ }
+
+
+ .mayor {
+    height: 350px;  
+    background-color: rgb(151, 151, 155);
+    padding: 10px 20px
+    
+    
+}
+
+.mayortitulo { 
+    display: flex ;
+    align-content:center;
+    justify-content: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+
+.mayorcontenedor {
+    padding: 01px 20px;
+    display: flex ;
+    align-content:center;
+    justify-content: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+
+.mayorparrafo { 
+    padding: 20px 20px;
+    align-content:center;
+    justify-content: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+    flex-direction: column ;
+}
+
+.mayorinfo { 
+    text-align: center;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+
+.mayorimg {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+    
+}
+
+
+
+
+.contacto{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+    display: flex ;
+    align-content:center;
+    justify-content: center;
+
+}
+
+
+
+
+.footer {
+    
+    display: flex;
+    background-color: #E98125;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    text-align: center; 
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 12px ;
+}
+
+.footerparrafo {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 12px   
+       
+}
+
+.footer2 {    
+     margin-left: 500px;  
+     list-style: none;  
+     font-family: 'Gothic A1', sans-serif;
+     font-size: 12px       
+}
+
+
+Media queries-responsive-estilos movil 
+
+
+@media screen and (min-width: 768px) {
+   
+    .complementocontenedor {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 768px) {  
+    .complementocontenedor {
+        flex-wrap: wrap;
+    }
+
+    .footer2 {    
+        margin-left: 400px;  
+             
+   }
+   .productoscontenedor {
+    margin: 10px 10px;
+}
+
+}
+
+@media screen and (min-width: 600px) {  
+    .complementocontenedor {
+        flex-wrap: wrap;
+    }
+
+    .footer2 {    
+        margin-left: 180px;  
+             
+   }
+   .productoscontenedor {
+    margin: 10px 10px;
+}
+
+.opciones {
+    font-size: 15px;
+}
+
+.complemento {
+
+    font-size: 12px;
+}
+.productos{
+    
+   font-size: 12px;
+    
+}
+.metal {
+    
+    font-size: 12px;
+}
+.productosimg {
+    height: 100px;
+   
+}
+.imgsuperior1 { 
+    height: 80px;
+   
+}
+
+}
+
+@media screen and (min-width: 480px) {  
+    .complementocontenedor {
+        flex-wrap: wrap;
+    }
+    .propiacontenedor {
+     flex-wrap: wrap;
+    align-content:center;
+    justify-content: center;
+}
+
+    .footer2 {    
+        margin-left: 160px;  
+             
+   }
+   .productoscontenedor {
+    margin: 10px 10px;
+}
+
+.opciones {
+    font-size: 15px;
+}
+
+.complemento {
+
+    font-size: 12px;
+}
+.productos{
+    
+   font-size: 12px;
+    
+}
+.metal {
+    
+    font-size: 12px;
+}
+.productosimg {
+    height: 100px;
+   
+}
+.arriba{
+    
+    font-size: 10px;   
+      
+}
+.complementoimg{
+    
+    height: 300px;
+  
+ }
+   
+}
+
+@media screen and (min-width: 320px) {  
+    .complementocontenedor {
+        flex-wrap: wrap;
+    }
+
+    .propiacontenedor {
+     flex-wrap: wrap;
+    align-content:center;
+    justify-content: center;
+}
+
+    .footer2 {    
+        margin-left: 0px;  
+             
+   }
+   .productoscontenedor {
+    flex-wrap: wrap;
+}
+
+.opciones {
+    font-size: 10px;
+}
+
+.complemento {
+
+    font-size: 10px;
+}
+.productos{
+    
+   font-size: 10px;
+    
+}
+.metal {
+ 
+    font-size: 12px;
+}
+.productosimg {
+    height: 100px;
+   
+}
+.arriba{
+    
+    font-size: 07px;   
+      
+}
+.complementoimg{
+    
+    height: 200px;
+  
+ }
+ .imgsuperior1 {
+    height: 50px;
+   
+}
+
+}
+
+
+
+
