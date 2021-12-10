@@ -10,11 +10,14 @@
     background-color:#E98125;
     font-family: 'Gothic A1', sans-serif;
     font-size: 12px;   
-    height: 40px;   
+    height: 40px; 
+    
 }
 
 .arribatodo{
-    display: flex;   
+    display: flex; 
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 10px ;  
 }
 
 .arribap{
@@ -28,13 +31,15 @@
     padding: 00px 01px;
     margin: 0px 40px;
     flex-wrap: wrap;
+    
 
 }
 
 .separador {
-    background-color: #E98125;
     height: 6px;
     border: none;
+    background: rgb(133,132,136);
+    background: linear-gradient(90deg, rgba(133,132,136,1) 0%, rgba(155,101,53,1) 44%, rgba(233,129,37,1) 100%);
 }
 
 .imgsuperior{
@@ -95,7 +100,8 @@
     display: flex;
     margin-top: 10px;
     margin-bottom: 10px;
-
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
     
  }
 
@@ -118,6 +124,26 @@
 .productostitulo{
     margin-top: 10px;
     text-align: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+
+}
+
+.productostituloref{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #E98125;
+    border: none;
+    padding: 12px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+    
+
+}
+
+.productostituloref:hover {
+    background-color: #E98125;
 }
 
 
@@ -128,6 +154,8 @@
     align-content:center;
     justify-content: center;
     margin-bottom: 10px;
+    
+    
 }
 
 .productosunidad{
@@ -149,7 +177,9 @@
     padding: 01px 20px;
     background-color: rgb(151, 151, 155);
     font-family: 'Gothic A1', sans-serif;
-   font-size: 1rem;
+    font-size: 1rem;
+    
+   
 }
 
 .metaltitulo{
@@ -158,6 +188,27 @@
     display: flex;
     align-content:center;
     justify-content: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+
+.metaltituloref{
+    
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    background-color: #E98125;
+    border: none;
+    padding: 12px 02px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.metaltituloref:hover {
+    background-color: #E98125;
 }
 
 
@@ -168,6 +219,7 @@
     align-content:center;
     justify-content: center;
     margin-bottom: 10px;
+    
 }
 
 
@@ -379,6 +431,7 @@
     font-size: 1rem;
 }
 
+
 .mayorcontenedor {
     padding: 01px 20px;
     display: flex ;
@@ -403,6 +456,25 @@
     align-content:center;
     justify-content: center;
 }
+
+.mayorinforef { 
+    text-align: center;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    background-color: #E98125;
+    border: none;
+    padding: 12px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.mayorinforef:hover { 
+    background-color: #E98125;
+
+}
+
 
 .mayorimg {
     width: 100%;
@@ -429,8 +501,7 @@
 
 
 
-.footer {
-    
+.footer {  
     display: flex;
     background-color: #E98125;
     align-items: center;
@@ -438,12 +509,17 @@
     padding: 0px 20px;
     text-align: center; 
     font-family: 'Gothic A1', sans-serif;
-    font-size: 12px ;
+   font-size: 10px;
+}
+
+.footercolumna {  
+    font-family: 'Gothic A1', sans-serif;
+   font-size: 10px;
 }
 
 .footerparrafo {
     font-family: 'Gothic A1', sans-serif;
-    font-size: 12px   
+    font-size: 10px; 
        
 }
 
@@ -451,7 +527,7 @@
      margin-left: 500px;  
      list-style: none;  
      font-family: 'Gothic A1', sans-serif;
-     font-size: 12px       
+     font-size: 10px;      
 }
 
 
