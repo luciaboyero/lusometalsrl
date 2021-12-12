@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
-
-
 .* {
     margin: 0;
     padding: 0;
@@ -9,183 +6,23 @@
     
 }
 
-.containerdatos{
-    background-color: #E98125;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align: center; 
-    font-size: 1rem;
-    margin: 10px 10px;
-    padding: 10px 10px;
-    font-family: 'Gothic A1', sans-serif;
-  
-  
-
-}
-
 .arriba{
-    margin-left: 10px;
-    margin-right: 10px;
     background-color:#E98125;
     font-family: 'Gothic A1', sans-serif;
     font-size: 12px;   
     height: 40px; 
     
-     
 }
 
 .arribatodo{
     display: flex; 
     font-family: 'Gothic A1', sans-serif;
-    font-size: 10px ; 
-    
+    font-size: 10px ;  
 }
 
 .arribap{
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 12px; 
-    margin: 18px ; 
-    
+    margin: 18px ;   
 }
-
-.imglogo{
-    height: 80px;
-    
-}
-
-.nav{
-    padding: 0px ;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.nav1{
-    background-color: white; 
-}
-
-.heroe{
-    height: 60vh;
-}
-
-.container{
-    padding: 40px;
-}
-.containerimg{
-    height: 200px;
-    padding: 10px 10px;
-}
-
-.productos {
-    background-color: rgb(151, 151, 155);
-    padding: 10px 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-}
-
-.productostitulo{
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 25px;
-    color: white;
-
-}
-
-.productosnom{
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 18px;
-    color: white;
-
-}
-
-.productostituloref{
-    margin-top: 10px;
-    text-align: center;
-      display: flex;
-    align-content:center;
-    justify-content: center;
-    background-color: #E98125;
-    border: none;
-    padding: 20px 8px;
-    border-radius: 3px;
-    cursor: pointer;   
-    color: white;
-
-}
-
-.productostituloref:hover {
-    background-color: #E98125;
-}
-
-.metal{ 
-    background-color: rgb(151, 151, 155);
-    padding: 10px 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-}
-
-
-.metaltitulo{
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 25px;
-    color: white;
-
-}
-
-.metalimg {
-    height: 400px;
-}
-
-.metaltitulonom{
-    margin-top: 10px;
-    text-align: center;
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 18px;
-    color: white;
-
-}
-
-
-.metaltituloref{
-    margin-top: 10px;
-    text-align: center;
-    display: flex;
-    align-content:center;
-    justify-content: center;
-    background-color: #E98125;
-    border: none;
-    padding: 20px 8px;
-    border-radius: 3px;
-    cursor: pointer;   
-    color: white;
-
-}
-
-.tituloref:hover {
-    background-color: #E98125;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .header{
     display: flex;
@@ -199,12 +36,11 @@
 }
 
 .separador {
-    height: 30px;
+    height: 6px;
     border: none;
     background: rgb(133,132,136);
     background: linear-gradient(90deg, rgba(133,132,136,1) 0%, rgba(155,101,53,1) 44%, rgba(233,129,37,1) 100%);
 }
-
 
 .imgsuperior{
     display: flex;
@@ -240,8 +76,6 @@
 
 .opcionesitem{
     margin: 0px 12px;
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 16px; 
 
 }
 
@@ -267,7 +101,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Gothic A1', sans-serif;
-    font-size: 1rem ; 
+    font-size: 1rem;
     
  }
 
@@ -278,10 +112,39 @@
   
  }
 
+.productos{
+    background-color: rgb(151, 151, 155);
+    padding: 01px 20px;
+    font-family: 'Gothic A1', sans-serif;
+   font-size: 1rem;
+    
+  
+}
 
+.productostitulo{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
 
+}
 
+.productostituloref{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #E98125;
+    border: none;
+    padding: 12px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+    
 
+}
+
+.productostituloref:hover {
+    background-color: #E98125;
+}
 
 
 .productoscontenedor{
@@ -310,6 +173,63 @@
 }
 
 
+.metal{
+    padding: 01px 20px;
+    background-color: rgb(151, 151, 155);
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+    
+   
+}
+
+.metaltitulo{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 1rem;
+}
+
+.metaltituloref{
+    
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    background-color: #E98125;
+    border: none;
+    padding: 12px 02px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.metaltituloref:hover {
+    background-color: #E98125;
+}
+
+
+.metalcontenedor{
+    display: flex;
+    gap: 20px;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+
+.metalimg {
+    width: 100%;
+    max-width: 210px;
+    height: 210px;
+    object-fit: cover;
+    margin: 20px;
+}
 
 .sobrenosotros {
     height: 350px;  
@@ -579,15 +499,7 @@
 }
 
 
-.footerindex {  
-    background-color: #E98125;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align: center; 
-    font-size: 1rem;
-    margin: 10px 10px;
-}
+
 
 .footer {  
     display: flex;
@@ -596,11 +508,13 @@
     justify-content: center;
     padding: 0px 20px;
     text-align: center; 
+    font-family: 'Gothic A1', sans-serif;
+   font-size: 10px;
 }
 
 .footercolumna {  
     font-family: 'Gothic A1', sans-serif;
-    font-size: 10px;
+   font-size: 10px;
 }
 
 .footerparrafo {
@@ -786,9 +700,13 @@
     height: 200px;
   
  }
- 
- .imglogo{
-     height: 60px;
- }
+ .imgsuperior1 {
+    height: 50px;
+   
+}
 
 }
+
+
+
+

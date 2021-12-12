@@ -9,136 +9,183 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
    
-    <link rel = "preconnect" href = "https://fonts.googleapis.com">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
-    <link href = "https: //fonts.googleapis.com/css2? family = Gothic + A1: wght @ 300 & display = swap "rel =" stylesheet ">
    
-    <link rel="stylesheet" href="./Css/style.css">
-    
+    <link rel="stylesheet" href="./css/style.css">
 
     <title>Lusometal srl</title>
-  </head>
-  <body>
-
-    <div class="arriba" >
-      <h3 class="arribatodo">
-         <p class="arribap" >  Av.cobo 1852,CABA  </p> 
-         <p class="arribap" >  (+54) 4795-8850  </p> 
-         <p class="arribap" > lusometalsrl@hotmail.com  </p> 
-     </h3>
-    </div>
-    <header class="header">
-        <h2 class="imgsuperior" >
-           <img class="imgsuperior1"  src="./imagenes/imglogo.png" alt="logo luso" >
-        </h2>
-        <nav class="opciones">
-          <ul class="opcioneslist">
-               <li class="opcionesitem"> <a href="#"> Inicio </a></li>
-               <li class="opcionesitem"> <a href="./nosotros.html"> Nosotros </a> </li>
-               <li class="opcionesitem"> <a href="./productos.html"> Productos </a></li>
-               <li class="opcionesitem"> <a href="./fabricacion.html">Fabricacion </a></li>
-               <li class="opcionesitem"> <a href="./compraalpormayor.html">Compra al por mayor</a></li>
-                <li class="opcionesitem"> <a href="./contacto.html">Contacto </a></li>
-         </ul>
-        </nav>
-     </header> 
-     <hr class="separador">
-
-     <main > 
-            <section class="complemento"> 
-               <div class="complementocontenedor ">
-                 <img class="complementoimg" src="./imagenes/frente.jpg" alt="frente luso" >
-                    <h2 class="complementoparrafo">
-                     Lusometal SRL es una empresa familiar dedicada a la distribuciòn de productos metalurgicos y a la fabricaciòn de metales desplegados
-                     La constancia, el dinamismo y la calidad de nuestros materiales, son los atributos que constituyen nuestra garantía como empresa sólida 
-                     en el mercado.
-                     En nuestro almacen ubicaco en Parque chacabuco, encontrará amplia gama de materiales (mallas, caños,
-                    chapas, hierros) y disponibilidad en stock, cualidades que nos hacen destacar en nuestro sector.
-                   </h2>
-              <br>
-             </div>
-               <br>
-          </section>
-
-          <br>
-
-         <section class="productos">
-            <h2 class="productostitulo"> Nuestros productos</h2>
-            
-            <div class="productoscontenedor">
-              <div class="productosunidad">
-                <img class="productosimg" src="./imagenes/caños.jpg" alt="caños">
-               <h3 class="productostitulo">Caños</h3>
-               <a class="productostituloref" href="./productos.html"> Mas informaciòn </a>
-               </div>
-              <div class="productosunidad">
-                 <img class="productosimg" src="./imagenes/hierros.jpg" alt="Hierros">
-                 <h3 class="productostitulo">Hierros</h3>
-                 <a class="productostituloref" href="./productos.html"> Mas informaciòn </a>
-              </div>
-              <div class="productosunidad">
-                <img class="productosimg" src="./imagenes/mallas.jpg" alt="mallas">
-                <h3 class="productostitulo">Mallas</h3>
-                <a class="productostituloref" href="./productos.html"> Mas informaciòn </a>
-               </div>
-              <div class="productosunidad">
-                <img class="productosimg" src="./imagenes/adn.jpg" alt="adn">
-                 <h3 class="productostitulo">Hierros de construcciòn</h3>
-                 <a class="productostituloref" href="./productos.html"> Mas informaciòn </a>
-               </div>
-             </div>
-        </section>
+  </head> 
+  <body >
     
+    
+    <div class="containerdatos"> 
+      <div class="row">
+        <div class="col-md-4">
+          <p>Av.cobo 1852,CABA</p>        
+        </div>
+        <div class="col-md-4">
+          <p>(+54) 4795-8950</p>       
+        </div>
+        <div class="col-md-4">    
+          <p>lusometalsrl@hotmail.com</p>
+        </div>
+      </div>
+      </div>
+
+    <!-- Nav --> 
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light nav"  > 
+      <div class="container-fluid nav1">
+        <a class="navbar-brand" href="#"> <img class="imglogo" src="./imagenes/imglogo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ms-3">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./productos.html">Productos</a>
+            </li> 
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./fabricacion.html">Fabricacion propia</a>
+            </li>
+            <li class="nav-item ms-3 ">
+              <a class="nav-link" href="./compraalpormayor.html">Compras al por mayor</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./contacto.html">Contacto</a> 
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
+   <!-- Nav final -->
+
+  <!-- principio carrusel --> 
+  <main >
+   <div class="container-fluid">  
+     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner heroe"  >
+        <div class="carousel-item active">
+          <img src="./imagenes/rectangulares.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/redondos.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/hierrocuad.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>     
+  <!-- final carrusel --> 
+      
+   <!-- Descripcion --> 
+     <div class="container"> 
+        <div class="row">
+          <div class="col-md-6">
+            <p>Lusometal SRL es una empresa familiar dedicada a la distribuciòn de productos metalurgicos y a la fabricaciòn de metales desplegados
+              La constancia, el dinamismo y la calidad de nuestros materiales, son los atributos que constituyen nuestra garantía como empresa sólida 
+              en el mercado.</p>
+          </div>
+          <div class="col-md-6">
+            <p>En nuestro almacen ubicaco en Parque chacabuco, encontrará amplia gama de materiales (mallas, caños,
+              chapas, hierros) y disponibilidad en stock, cualidades que nos hacen destacar en nuestro sector.</p>
+          </div>
+        </div> 
+      
+     <!-- final descripcion --> 
+      
+     </div>  
+     <!-- Productos --> 
+     <section class="productos">
+      <h2 class="productostitulo"> Nuestros productos</h2>   
+     <div class="container">
+      <div class="row">
+         <div class="col-md-3 ">
+          <p class="productosnom" >Caños</p>
+          <img src="./imagenes/cañosimg.jpg" alt="" class="containerimg">
+          <a class="productostituloref" href="./productos.html"> Mas informaciòn </a>
+         </div>
+         <div class="col-md-3">
+          <p class="productosnom">Hierros</p>
+          <img src="./imagenes/hierrosimg.jpg" alt="" class="containerimg">
+          <a class="productostituloref" href="./productos.html"> Mas informaciòn </a>
+         </div>
+         <div class="col-md-3">
+          <p class="productosnom">Mallas</p>
+          <img src="./imagenes/mallasimg.jpg" alt="" class="containerimg">
+          <a class="productostituloref" href="./productos.html"> Mas informaciòn </a> 
+         </div>
+         <div class="col-md-3">
+          <p class="productosnom"> Planchuelas</p>
+           <img src="./imagenes/planimg.jpg" alt="" class="containerimg">
+           <a class="productostituloref" href="./productos.html"> Mas informaciòn </a>
+          </div>          
+      </div>
+    </section>
+    <!-- Final Productos --> 
+
        <br>
 
+      <!-- Fabricacion propia  --> 
          <section class="metal">
             <h2 class="metaltitulo"> Fabricaciòn propia</h2>    
-            <div class="metalcontenedor">
-            <div class="metalunidad">
-            <img class="metalimg" src="./imagenes/metal.jpg" alt="metal">
-            <img class="metalimg" src="./imagenes/metalrollo.jpg" alt="metal">
-            <h3 class="metaltitulo">Metal desplegado</h3>
+            <div class="container">
+            <div class="row">
+            <h3 class="metaltitulonom">Metal desplegado</h3>
+            <img class="col-md-6 metalimg" src="./imagenes/metal.jpg" alt="metal">
+            <img class="col-md-6 metalimg" src="./imagenes/metalrollo.jpg" alt="metal">
+            
             <a class="metaltituloref" href="./fabricacion.html"> Mas informaciòn </a>
            </div>
           </div>  
          </section>
          <br>
+       <!-- Final Fabricacion propia  --> 
   </main> 
 
-
-  <footer class="footer">
-       <div class="footercolumna" >
-           <h3 class="footerparrafos">
-            <p>Av.cobo 1852,CABA</p>
-            <p>(+54) 4795-8950</p>
-            <p>lusometalsrl@hotmail.com</p>
-           </h3>
-       </div>
-       <div class="footercolumna">
-          <h3 class="footerparrafos">
-            <ul class="footer2">
-                <li><a href="avisoprivacidad">Aviso de privacidad</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-          </h3>
+  <!-- Fotter  --> 
+    
+  <footer class="footerindex">
+    <div class="container"> 
+      <div class="row">
+        <div class="col-md-6">
+          <p>Av.cobo 1852,CABA</p>
+          <p>(+54) 4795-8950</p>
+          <p>lusometalsrl@hotmail.com</p>
         </div>
-   </footer>
+        <div class="col-md-6">
+          <p href="avisoprivacidad">Aviso de privacidad</p>
+          <p href="contacto.html">Contacto</p>
+        </div>
+      </div> 
+
+  </footer>
+ 
+   <!--Final Fotter  --> 
 
   
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- script de js! -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
 
   </body>
 </html>
-
-
 
 
