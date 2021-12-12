@@ -70,10 +70,14 @@
 .container{
     padding: 40px;
 }
+
+
 .containerimg{
     height: 200px;
     padding: 10px 10px;
 }
+
+
 
 .productos {
     background-color: rgb(151, 151, 155);
@@ -620,14 +624,16 @@
 /*Media queries-responsive-estilos movil */ 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 350px) {
    
-    .complementocontenedor {
-        flex-wrap: wrap;
-    }
+   .heroecont{
+       
+    height: 180px;
 
-
+   }
+        
 }
+
 
 
 @media screen and (max-width: 768px) {  
