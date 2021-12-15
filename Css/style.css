@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
 
 
-.* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,9 +19,6 @@
     margin: 10px 10px;
     padding: 10px 10px;
     font-family: 'Gothic A1', sans-serif;
-  
-  
-
 }
 
 .arriba{
@@ -67,16 +64,9 @@
     height: 60vh;
 }
 
-.container{
+.containerdesc{
     padding: 40px;
 }
-
-
-.containerimg{
-    height: 200px;
-    padding: 10px 10px;
-}
-
 
 
 .productos {
@@ -105,6 +95,7 @@
 
 }
 
+
 .productostituloref{
     margin-top: 10px;
     text-align: center;
@@ -132,6 +123,11 @@
 
 }
 
+.metalcontainer{
+    padding: 40px;
+
+}
+
 
 .metaltitulo{
     margin-top: 10px;
@@ -144,7 +140,7 @@
 
 .metalimg {
     height: 400px;
-}
+
 
 .metaltitulonom{
     margin-top: 10px;
@@ -171,16 +167,9 @@
 
 }
 
-.tituloref:hover {
+.metaltituloref:hover {
     background-color: #E98125;
 }
-
-
-
-
-
-
-
 
 
 
@@ -591,6 +580,7 @@
     text-align: center; 
     font-size: 1rem;
     margin: 10px 10px;
+    
 }
 
 .footer {  

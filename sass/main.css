@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nav {
+  padding: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav1 {
+  background-color: white;
+}
+
+.imglogo {
+  height: 80px;
+}
+
+.containerdatos {
+  background-color: #E98125;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.containerdesc {
+  padding: 40px;
+}
+
+.productos {
+  background-color: #97979b;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.productostitulo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.productoscontainer {
+  padding: 40px;
+}
+
+.productosnom {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.productostituloref {
+  margin-top: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #E98125;
+  border: none;
+  padding: 20px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+
+.productostituloref:hover {
+  background-color: #E98125;
+}
+
+.metal {
+  background-color: #97979b;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.metalcontainer {
+  padding: 40px;
+}
+
+.metaltitulo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.metaltitulonom {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.metaltituloref {
+  margin-top: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #E98125;
+  border: none;
+  padding: 20px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+
+.metaltituloref:hover {
+  background-color: #E98125;
+}
+
+.footerindex {
+  background-color: #E98125;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+/*# sourceMappingURL=main.css.map */

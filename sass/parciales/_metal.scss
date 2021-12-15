@@ -1,0 +1,55 @@
+.metal{ 
+    background-color: rgb(151, 151, 155);
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+      &container{
+        padding: 40px;
+    
+    }
+    
+    
+    &titulo{
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Gothic A1', sans-serif;
+        font-size: 25px;
+        color: white;
+    
+    }
+    
+    
+    
+    &titulonom{
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Gothic A1', sans-serif;
+        font-size: 18px;
+        color: white;
+    
+    }
+    
+    
+    &tituloref{
+        margin-top: 10px;
+        text-align: center;
+        display: flex;
+        align-content:center;
+        justify-content: center;
+        background-color: #E98125;
+        border: none;
+        padding: 20px 8px;
+        border-radius: 3px;
+        cursor: pointer;   
+        color: white;
+    
+    }
+    
+    &tituloref:hover {
+        background-color: #E98125;
+    }
+    
+    
+}
+
