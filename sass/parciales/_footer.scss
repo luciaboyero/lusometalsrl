@@ -1,6 +1,8 @@
+@import "./variables";
+
 .footerindex {  
-    background-color:#E98125;
-    color: white;
+    background-color:$color_principal;
+    color: $color_letrasfondonaranja;
     align-items: center;
     justify-content: center;
     text-align: center; 

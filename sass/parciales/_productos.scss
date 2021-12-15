@@ -1,5 +1,7 @@
+@import "./variables";
+
 .productos {
-    background-color: rgb(151, 151, 155);
+    background-color: $color_contenedores;
     padding: 10px 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -7,9 +9,9 @@
     &titulo{
         margin-top: 10px;
         text-align: center;
-        font-family: 'Gothic A1', sans-serif;
+        font-family: $font_principal;
         font-size: 25px;
-        color: white;
+        color:$color_letrasfondonaranja;
     
     }
     
@@ -22,9 +24,9 @@
     &nom{
     margin-top: 10px;
     text-align: center;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: $font_principal;
     font-size: 18px;
-    color: white;
+    color: $color_letrasfondonaranja;
 
 }  
     &tituloref{
@@ -33,16 +35,16 @@
       display: flex;
     align-content:center;
     justify-content: center;
-    background-color: #E98125;
+    background-color: $color_principal;
     border: none;
     padding: 20px 8px;
     border-radius: 3px;
     cursor: pointer;   
-    color: white;
+    color: $color_letrasfondonaranja;
 
 }  
      &tituloref:hover {
-    background-color: #E98125;
+    background-color: $color_principal;
 }
 
 

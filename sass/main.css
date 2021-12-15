@@ -35,7 +35,7 @@
   font-size: 1rem;
   margin: 10px 10px;
   padding: 10px 10px;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: "Gothic A1", sans-serif;
 }
 
 .containerdesc {
@@ -52,7 +52,7 @@
 .productostitulo {
   margin-top: 10px;
   text-align: center;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: "Gothic A1", sans-serif;
   font-size: 25px;
   color: white;
 }
@@ -64,7 +64,7 @@
 .productosnom {
   margin-top: 10px;
   text-align: center;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: "Gothic A1", sans-serif;
   font-size: 18px;
   color: white;
 }
@@ -106,7 +106,7 @@
 .metaltitulo {
   margin-top: 10px;
   text-align: center;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: "Gothic A1", sans-serif;
   font-size: 25px;
   color: white;
 }
@@ -114,7 +114,7 @@
 .metaltitulonom {
   margin-top: 10px;
   text-align: center;
-  font-family: 'Gothic A1', sans-serif;
+  font-family: "Gothic A1", sans-serif;
   font-size: 18px;
   color: white;
 }
