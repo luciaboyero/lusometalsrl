@@ -1,75 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <div class="arriba" >
-    <h3 class="arribatodo">
-       <p class="arribap" >  Av.cobo 1852,CABA  </p> 
-       <p class="arribap" >  (+54) 4795-8850  </p> 
-       <p class="arribap" > lusometalsrl@hotmail.com  </p> 
-   </h3>
-  </div>
-  <header class="header">
-      <h2 class="imgsuperior" >
-         <img class="imgsuperior1"  src="./imagenes/imglogo.png" alt="logo luso" >
-      </h2>
-      <nav class="opciones">
-        <ul class="opcioneslist">
-             <li class="opcionesitem"> <a href="./index.html"> Inicio </a></li>
-             <li class="opcionesitem"> <a href="./nosotros.html"> Nosotros </a> </li>
-             <li class="opcionesitem"> <a href="./productos.html"> Productos </a></li>
-             <li class="opcionesitem"> <a href="./fabricacion.html">Fabricacion </a></li>
-             <li class="opcionesitem"> <a href="./compraalpormayor.html">Compra al por mayor</a></li>
-              <li class="opcionesitem"> <a href="./contacto.html">Contacto </a></li>
-       </ul>
-      </nav>
-   </header> 
-   <hr class="separador">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <main> 
-          <section class="sobrenosotros"> 
-            <h2 class="sobrenosotrostitulo"> Sobre nosotros</h2> 
-            <div class="sobrenosotroscontenedor ">        
-              <p class="sobrenosotrosparrafo">
-                Lusometal SRL es una empresa proveedora de material de hierros en Buenos Aires. Llevamos más de 8 años, 
-                dando un servicio excelente, con las soluciones más profesionales y con una relación calidad-precio <br> muy competitiva.
-        
-                Trabajamos tanto para empresas como para particulares, solicite el material de hierros y acero que precise y <br> en  pocos días lo 
-                recibirá en cualquier punto..
-               <br>              
-                En Lusometal SRL tambien fabricamos metal desplegado.
-               </p>
-             <img class="sobrenosotrosimg" src="./imagenes/pety.jpg" alt="frente luso" >
-        
-            </div>
-           </section>
-      
-    </main> 
+    <!-- Bootstrap CSS -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+   
+    <link rel="stylesheet" href="./sass/main.css">
 
-    <footer class="footer">
-        <div class="footercolumna" >
-            <h3 class="footerparrafos">
-             <p>Av.cobo 1852,CABA</p>
-             <p>(+54) 4795-8950</p>
-             <p>lusometalsrl@hotmail.com</p>
-            </h3>
+    <title>Lusometal srl</title>
+  </head> 
+  <body >
+    
+    
+    <div class="containerdatos"> 
+      <div class="row">
+        <div class="col-md-4">
+          <p>Av.cobo 1852,CABA</p>        
         </div>
-        <div class="footercolumna">
-           <h3 class="footerparrafos">
-             <ul class="footer2">
-                 <li><a href="avisoprivacidad">Aviso de privacidad</a></li>
-                 <li><a href="contacto.html">Contacto</a></li>
-             </ul>
-           </h3>
-         </div>
-    </footer>
+        <div class="col-md-4">
+          <p>(+54) 4795-8950</p>       
+        </div>
+        <div class="col-md-4">    
+          <p>lusometalsrl@hotmail.com</p>
+        </div>
+      </div>
+      </div>
+
+    <!-- Nav --> 
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light nav"  > 
+      <div class="container-fluid nav1">
+        <a class="navbar-brand" href="#"> <img class="imglogo img-fluid" src="./imagenes/imglogo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ms-3">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./productos.html">Productos</a>
+            </li> 
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./fabricacion.html">Fabricacion propia</a>
+            </li>
+            <li class="nav-item ms-3 ">
+              <a class="nav-link" href="./compraalpormayor.html">Compras al por mayor</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./contacto.html">Contacto</a> 
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
+   <!-- Nav final -->
+
+  <br>
+  <section class="nosotros">
+    <h2 class="nosotrostitulo"> Sobre nosotros</h2>   
+   <div class="nosotroscontainer">
+    <div class="row">
+       <div class="col-md-6 ">
+        <img src="./imagenes/frente.jpg" alt="" class="nosotrosindimg img-fluid">
+        <p class="productosnom" >Lusometal SRL es una empresa proveedora de material de hierros en Buenos Aires. Llevamos más de 8 años, dando un servicio excelente, 
+          con las soluciones más profesionales y con una relación calidad-precio muy competitiva.</p>
+        
+       </div>
+       <div class="col-md-6">
+       
+        <img src="./imagenes/pety.jpg" alt="" class="nosotrosindimg img-fluid">
+        <p class="nosotrosnom">Trabajamos tanto para empresas como para particulares, solicite el material de hierros y acero que precise y
+          en pocos días lo recibirá en cualquier punto. En Lusometal SRL tambien nos dedicamos a la fabricaciòn de metal desplegado.</p>
+       </div>
+       
+       <a class="nosotrostituloref" href="./contacto.html"> Mas informaciòn </a>           
+    </div>
+  </section>
+
+  
+ <!-- final descripcion --> 
+
+    <!-- Fotter  --> 
     
-    
-</body>
+  <footer class="footerindex">
+    <div class="footercontainer"> 
+      <div class="row">
+        <div class="col-md-6">
+          <p>Av.cobo 1852,CABA</p>
+          <p>(+54) 4795-8950</p>
+          <p>lusometalsrl@hotmail.com</p>
+        </div>
+        <div class="col-md-6">
+          <p href="avisoprivacidad">Aviso de privacidad</p>
+          <p href="contacto.html">Contacto</p>
+        </div>
+      </div> 
+
+  </footer>
+ 
+   <!--Final Fotter  --> 
+
+  
+    <!-- script de js! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
 </html>

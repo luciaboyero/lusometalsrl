@@ -9,6 +9,9 @@
     
 }
 
+
+/*css de index */ 
+
 .containerdatos{
     background-color: #E98125;
     color: white;
@@ -172,10 +175,44 @@
 }
 
 
+/*css sobre nosotros */ 
+
+.nosotros {
+    background-color: #E98125;
+    color: white;
+    text-align: center;
+
+}
+
+.nosotroscontainer{
+    height: 100px ;
+}
+
+
+
+.footerindex {  
+    background-color: #E98125;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    font-size: 1rem;
+    margin: 10px 10px;
+    
+}
 
 
 
 
+
+
+
+
+
+
+
+
+/*Css NO SE AUN */ 
 
 
 
@@ -304,48 +341,6 @@
 
 
 
-.sobrenosotros {
-    height: 350px;  
-    background-color: rgb(151, 151, 155);
-    padding: 10px 20px
-    
-    
-}
-
-.sobrenosotrostitulo { 
-    display: flex ;
-    align-content:center;
-    justify-content: center;
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 1rem;
-}
-
-.sobrenosotroscontenedor {
-    padding: 01px 20px;
-    display: flex ;
-    align-content:center;
-    justify-content: center;
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 1rem;
-}
-
-.sobrenosotrosparrafo { 
-    padding: 20px 20px;
-    display: flex ;
-    align-content:center;
-    justify-content: center;
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 1rem;
-}
-.sobrenosotrosimg {
-    width: 100%;
-    max-width: 400px;
-    height: 300px;
-    object-fit: cover;
-    font-family: 'Gothic A1', sans-serif;
-    font-size: 1rem;
-    
-}
 
 
 .caños{

@@ -1,95 +1,139 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-  <div class="arriba" >
-    <h3 class="arribatodo">
-       <p class="arribap" >  Av.cobo 1852,CABA  </p> 
-       <p class="arribap" >  (+54) 4795-8850  </p> 
-       <p class="arribap" > lusometalsrl@hotmail.com  </p> 
-   </h3>
-  </div>
-  <header class="header">
-      <h2 class="imgsuperior" >
-         <img class="imgsuperior1"  src="./imagenes/imglogo.png" alt="logo luso" >
-      </h2>
-      <nav class="opciones">
-        <ul class="opcioneslist">
-             <li class="opcionesitem"> <a href="./index.html"> Inicio </a></li>
-             <li class="opcionesitem"> <a href="./nosotros.html"> Nosotros </a> </li>
-             <li class="opcionesitem"> <a href="./productos.html"> Productos </a></li>
-             <li class="opcionesitem"> <a href="./fabricacion.html">Fabricacion </a></li>
-             <li class="opcionesitem"> <a href="./compraalpormayor.html">Compra al por mayor</a></li>
-              <li class="opcionesitem"> <a href="./contacto.html">Contacto </a></li>
-       </ul>
-      </nav>
-   </header> 
-   <hr class="separador">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
     
-     <main> 
-         <section class="caños">
-            <h2 class="cañostitulo"> Caños</h2>
-            <div class="cañoscontenedor">
-              <div class="cañosunidad">
-                <img class="cañosimg" src="./imagenes/cuadrados.jpg" alt="img">
-              </div>
-              <div class="productosunidad">
-                <img class="productosimg" src="./imagenes/rectangulares.jpg" alt="img">
-              </div>
-              <div class="productosunidad">
-                <img class="productosimg" src="./imagenes/redondos.jpg" alt="img">        
-              </div>        
-            </div>
-         </section>
- <br>
-     
-          <section class="cañospres"> 
-                <h2 class="cañosprestitulo"> Presentaciòn</h2> 
-                <div class="cañosprescontenedor ">        
-                    <p> Los caños vienen en termanaciònes cuadradas, rectangulares y redondas <br>
-                        Lusometal srl trabaja dimensiònes que van desde 5/8” a 5” y en espesores de 0,9 a 2,5 mm (dependiendo de la dimensiòn del caños)
-                        <br> Se comeracializan en largos de 6 metros. </p>  
-                 </div>
-           </section>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+   
+    <link rel="stylesheet" href="./sass/main.css">
 
-    <br>
-       
-          <section class="cañospres"> 
-               <h2 class="cañosprestitulo"> Usos</h2> 
-               <div class="cañosprescontenedor ">        
-                   <p>La utilización de estos caños se da en la construcción en general así como herrería de obra y estructura metálica liviana y pesada.
-                    <br> Son utilizados en la industria automotriz específicamente en cańos de escape, amortiguadores y asientos, entre otros usos.
-                   <br>  Además, se aplican para el armado de columnas para alumbrado público, cartelería y seńalización de carreteras.
-                   <br>  También forman parte de los productos de la industria del mueble y camping como de las maquinarias agrícolas.</p>
-               </div>
-          </section>
-        </section>
-
-    </main>
-    <br>
-    <footer class="footer">
-        <div class="footercolumna" >
-            <h3 class="footerparrafos">
-             <p>Av.cobo 1852,CABA</p>
-             <p>(+54) 4795-8950</p>
-             <p>lusometalsrl@hotmail.com</p>
-            </h3>
+    <title>Lusometal srl</title>
+  </head> 
+  <body >
+    
+    
+    <div class="containerdatos"> 
+      <div class="row">
+        <div class="col-md-4">
+          <p>Av.cobo 1852,CABA</p>        
         </div>
-        <div class="footercolumna">
-           <h3 class="footerparrafos">
-             <ul class="footer2">
-                 <li><a href="avisoprivacidad">Aviso de privacidad</a></li>
-                 <li><a href="contacto.html">Contacto</a></li>
-             </ul>
-           </h3>
-         </div>
-    </footer>
+        <div class="col-md-4">
+          <p>(+54) 4795-8950</p>       
+        </div>
+        <div class="col-md-4">    
+          <p>lusometalsrl@hotmail.com</p>
+        </div>
+      </div>
+      </div>
 
-</body>
+    <!-- Nav --> 
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light nav"  > 
+      <div class="container-fluid nav1">
+        <a class="navbar-brand" href="#"> <img class="imglogo img-fluid" src="./imagenes/imglogo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ms-3">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./productos.html">Productos</a>
+            </li> 
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./fabricacion.html">Fabricacion propia</a>
+            </li>
+            <li class="nav-item ms-3 ">
+              <a class="nav-link" href="./compraalpormayor.html">Compras al por mayor</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./contacto.html">Contacto</a> 
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
+   <!-- Nav final -->
+
+<!-- Productos --> 
+<section class="paginaproductos">
+  <h2 class="paginaproductostitulo"> Caños</h2>   
+ <div class="paginaproductoscontainer">
+  <div class="row">
+     <div class="col-md-4 ">
+      <p class="paginaproductosnom" >Cuadrados</p>
+      <img src="./imagenes/1.jpg" alt="" class="paginaproductosindimg img-fluid">
+     </div>
+     <div class="col-md-4">
+      <p class="paginaproductosnom">Rectangulares</p>
+      <img src="./imagenes/2.jpg" alt="" class="paginaproductosindimg img-fluid">    
+     </div>
+     <div class="col-md-4">
+      <p class="paginaproductosnom">Redondos</p>
+      <img src="./imagenes/3.jpg" alt="" class="paginaproductosindimg img-fluid">    
+     </div>
+            
+  </div>
+</div>
+</section>
+<!-- Final Productos --> 
+
+      
+   <!-- Descripcion --> 
+     <div class="paginaproductoscaños"> 
+        <div class="row">
+          <div class="col-md-6">
+            <p class="h3">Presentaciòn</p>
+            <p>Los caños vienen en termanaciònes cuadradas, rectangulares y redondas <br>
+              Lusometal srl trabaja dimensiònes que van desde 5/8” a 5” y en espesores de 0,9 a 2,5 mm (dependiendo de la dimensiòn del caños)
+              <br> Se comeracializan en largos de 6 metros. </p>
+          </div>
+          <div class="col-md-6">
+            <p class="h3">Usos</p>
+            <p>La utilización de estos caños se da en la construcción en general así como herrería de obra y estructura metálica liviana y pesada.
+             <br>Tambine se utilizan en la industria automotriz específicamente en cańos de escape, amortiguadores y asientos; para el armado 
+             de columnas para alumbrado público, cartelería y seńalización de carreteras y en 
+             la industria del mueble y camping como de las maquinarias agrícolas.</p>
+          </div>
+        </div> 
+      
+     <!-- final descripcion --> 
+      
+  <!-- Fotter  --> 
+    
+  <footer class="footerindex">
+    <div class="footercontainer"> 
+      <div class="row">
+        <div class="col-md-6">
+          <p>Av.cobo 1852,CABA</p>
+          <p>(+54) 4795-8950</p>
+          <p>lusometalsrl@hotmail.com</p>
+        </div>
+        <div class="col-md-6">
+          <p href="avisoprivacidad">Aviso de privacidad</p>
+          <p href="contacto.html">Contacto</p>
+        </div>
+      </div> 
+    </div> 
+      
+  </footer>
+ 
+   <!--Final Fotter  --> 
+ 
+    <!-- script de js! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
 </html>
+
+
