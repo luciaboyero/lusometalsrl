@@ -1,0 +1,60 @@
+@import "./variables";
+
+.compramayor{ 
+    background-color: $color_contenedores;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+      &container{
+        padding: 40px;
+    
+    }
+    
+    
+    &titulo{
+        margin-top: 10px;
+        text-align: center;
+        font-family: $font_principal;
+        font-size: 25px;
+        color:$color_letrasfondonaranja;
+    
+    }
+
+    &img{
+        height: 600px;
+    }
+
+    &parrafo{
+        margin-top: 10px;
+        text-align: center;
+        font-family: $font_principal;
+        font-size: 18 px;
+        color:$color_letrasfondonaranja;
+    
+    }
+    
+    
+    
+    &titulonom{
+        margin-top: 10px;
+        text-align: center;
+        font-family: $font_principal;
+        font-size: 18px;
+        color: $color_letrasfondonaranja;
+    
+    }
+    
+    
+    &parrafo{
+        margin-top: 10px;
+        text-align: center;
+        display: flex;
+        align-content:center;
+        justify-content: center;
+        
+    
+    }
+    
+}
+

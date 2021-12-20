@@ -241,4 +241,172 @@
 .paginaproductoscaños {
   padding: 40px;
 }
+
+.fabricacionpropia {
+  background-color: #97979b;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fabricacionpropiacontainer {
+  padding: 40px;
+}
+
+.fabricacionpropiatitulo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.fabricacionpropiaparrafo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18 px;
+  color: white;
+}
+
+.fabricacionpropiatitulonom {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.fabricacionpropiatituloref {
+  margin-top: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #E98125;
+  border: none;
+  padding: 20px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+}
+
+.fabricacionpropiatituloref:hover {
+  background-color: #E98125;
+}
+
+.identificacion {
+  background-color: #97979b;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.identificacioncontainer {
+  padding: 40px;
+}
+
+.identificaciontitulo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.identificacionparrafo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18 px;
+  color: white;
+}
+
+.identificaciontitulonom {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.identificacionparrafo {
+  margin-top: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.compramayor {
+  background-color: #97979b;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.compramayorcontainer {
+  padding: 40px;
+}
+
+.compramayortitulo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.compramayorimg {
+  height: 600px;
+}
+
+.compramayorparrafo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18 px;
+  color: white;
+}
+
+.compramayortitulonom {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.compramayorparrafo {
+  margin-top: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formulario {
+  background-color: #97979b;
+  color: white;
+  font-size: 1rem;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 /*# sourceMappingURL=main.css.map */

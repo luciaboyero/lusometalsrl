@@ -1,85 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fabricacion</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <div class="arriba" >
-        <h3 class="arribatodo">
-           <p class="arribap" >  Av.cobo 1852,CABA  </p> 
-           <p class="arribap" >  (+54) 4795-8850  </p> 
-           <p class="arribap" > lusometalsrl@hotmail.com  </p> 
-       </h3>
-      </div>
-      <header class="header">
-          <h2 class="imgsuperior" >
-             <img class="imgsuperior1"  src="./imagenes/imglogo.png" alt="logo luso" >
-          </h2>
-          <nav class="opciones">
-            <ul class="opcioneslist">
-                 <li class="opcionesitem"> <a href="./index.html"> Inicio </a></li>
-                 <li class="opcionesitem"> <a href="./nosotros.html"> Nosotros </a> </li>
-                 <li class="opcionesitem"> <a href="./productos.html"> Productos </a></li>
-                 <li class="opcionesitem"> <a href="./fabricacion.html">Fabricacion </a></li>
-                 <li class="opcionesitem"> <a href="./compraalpormayor.html">Compra al por mayor</a></li>
-                  <li class="opcionesitem"> <a href="./contacto.html">Contacto </a></li>
-           </ul>
-          </nav>
-       </header> 
-       <hr class="separador">
-  <main> 
-         <section class="propiageneral" >
-            <section class="propia"> 
-             <h2 class="propiatitulo"> Fabricaciòn propia </h2>  
-             <div class="propiacontenedor ">                  
-             <p class="propiaparrafo">
-                En lusometal SRL nos dedicamos tambien a la fabricacion y comercializaciòn <br> de metales desplegados, ya sea para particulares o para reveendedores.
-               <br>  Contamos con un amplio catalogo de medidas.
-               </p>
-              <img class="propiaimg" src="./imagenes/metal.jpg" alt="metal" >
-             <img class="propiaimg" src="./imagenes/metalrollo.jpg" alt="metal" >
-            </div>
-         </section>
-      <br>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <section class="propia2"> 
-            <h2 class="propiatitulo2"> Identificaciòn del metal desplegado </h2> 
-            <div class="propiacontenedor2 ">        
-            <p class="propiaparrafo2">
-                Vamos a ver un ejemplo con el código 450-30-30. <br>
-                Diagonal mayor: 450 (4 cm) <br>
-                Calibre: 30 (3 mm) <br>
-                Diagonal menor: 30 (3 cm) <br>
-                Midiendo esos puntos vas a poder reconocer que metal desplegado tenes.
-            </p>
-             <img class="propiaimg2" src="./imagenes/metalmedidas.jpg" alt="metal" >    
-            </div>
-         </section>
+    <!-- Bootstrap CSS -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+   
+    <link rel="stylesheet" href="./sass/main.css">
 
-       </section>
-   </main>
-    <br>
-    <footer class="footer">
-        <div class="footercolumna" >
-            <h3 class="footerparrafos">
-             <p>Av.cobo 1852,CABA</p>
-             <p>(+54) 4795-8950</p>
-             <p>lusometalsrl@hotmail.com</p>
-            </h3>
+    <title>Lusometal srl</title>
+  </head> 
+  <body >
+    
+    
+    <div class="containerdatos"> 
+      <div class="row">
+        <div class="col-md-4">
+          <p>Av.cobo 1852,CABA</p>        
         </div>
-        <div class="footercolumna">
-           <h3 class="footerparrafos">
-             <ul class="footer2">
-                 <li><a href="avisoprivacidad">Aviso de privacidad</a></li>
-                 <li><a href="contacto.html">Contacto</a></li>
-             </ul>
-           </h3>
-         </div>
-    </footer>
+        <div class="col-md-4">
+          <p>(+54) 4795-8950</p>       
+        </div>
+        <div class="col-md-4">    
+          <p>lusometalsrl@hotmail.com</p>
+        </div>
+      </div>
+      </div>
+
+    <!-- Nav --> 
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light nav"  > 
+      <div class="container-fluid nav1">
+        <a class="navbar-brand" href="#"> <img class="imglogo img-fluid" src="./imagenes/imglogo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ms-3">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./productos.html">Productos</a>
+            </li> 
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./fabricacion.html">Fabricacion propia</a>
+            </li>
+            <li class="nav-item ms-3 ">
+              <a class="nav-link" href="./compraalpormayor.html">Compras al por mayor</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="./contacto.html">Contacto</a> 
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  
+   <!-- Nav final -->
+
+    <!-- Fabricacion propia  --> 
+    <section class="fabricacionpropia">
+        <h2 class="fabricacionpropiatitulo"> Fabricaciòn propia</h2>    
+        <div class="fabricacionpropiacontainer">
+        <div class="row">
+        <img class="col-md-6 fabricacionpropiaimg img-fluid" src="./imagenes/metal.jpg" alt="metal">
+        <img class="col-md-6 fabricacionpropiamg img-fluid" src="./imagenes/metalrollo.jpg" alt="metal">
+        <p class="fabricacionpropiaparrafo"> En lusometal SRL nos dedicamos tambien a la fabricacion y comercializaciòn de metales desplegados, <br> ya sea para particulares o para reveendedores.
+            Contamos con un amplio catalogo de medidas.</p>        
+        <a class="fabricacionpropiatituloref" href="./fabricacion.html"> Mas informaciòn </a>
+       </div>
+      </div>  
+     </section>
+     <br>
+   <!-- Final Fabricacion propia  --> 
+
+    <!-- Identificaciòn de metal desplegados  --> 
+    <section class="identificacion">
+        <h2 class="identificaciontitulo">  Identificaciòn del metal desplegado</h2>    
+        <div class="identificacioncontainer">
+        <div class="row">
+        <img class="col-md-6 identificacionimg img-fluid" src="./imagenes/metalmedidas.jpg" alt="metal">
+        <p class="col-md-6  identificacionparrafo" > 
+            Vamos a ver un ejemplo con el código 450-30-30. <br>
+            Diagonal mayor: 450 (4 cm) <br>
+            Calibre: 30 (3 mm) <br>
+            Diagonal menor: 30 (3 cm) <br>
+            Midiendo esos puntos vas a poder reconocer que metal desplegado tenes..</p>        
+       </div>
+      </div>  
+     </section>
+     <br>
+   <!-- Final Identificaciòn de metal desplegados --> 
+
+</main> 
+
+<!-- Fotter  --> 
+
+<footer class="footerindex">
+<div class="footercontainer"> 
+  <div class="row">
+    <div class="col-md-6">
+      <p>Av.cobo 1852,CABA</p>
+      <p>(+54) 4795-8950</p>
+      <p>lusometalsrl@hotmail.com</p>
+    </div>
+    <div class="col-md-6">
+      <p href="avisoprivacidad">Aviso de privacidad</p>
+      <p href="contacto.html">Contacto</p>
+    </div>
+  </div> 
+</div> 
+
+
+</footer>
+
+<!--Final Fotter  --> 
+
+
+<!-- script de js! -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
+
+
