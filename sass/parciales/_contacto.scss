@@ -1,0 +1,26 @@
+@import "./variables";
+
+.contacto{ 
+    background-color: $color_contenedores;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+      
+    &column{
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    &titulo{
+        margin-top: 10px;
+        text-align: center;
+        font-family: $font_principal;
+        font-size: 25px;
+        color:$color_letrasfondonaranja;
+    
+    }
+    
+    
+}

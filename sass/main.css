@@ -59,7 +59,10 @@
 }
 
 .productoscontainer {
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
 }
 
 .productosnom {
@@ -101,7 +104,10 @@
 }
 
 .metalcontainer {
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
 }
 
 .metaltitulo {
@@ -174,7 +180,10 @@
 }
 
 .nosotroscontainer {
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
 }
 
 .nosotrosnom {
@@ -223,6 +232,13 @@
   color: white;
 }
 
+.paginaproductoscontainer {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
 .paginaproductosindimg {
   height: 300px;
   -webkit-box-align: center;
@@ -250,7 +266,10 @@
 }
 
 .fabricacionpropiacontainer {
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
 }
 
 .fabricacionpropiatitulo {
@@ -308,7 +327,10 @@
 }
 
 .identificacioncontainer {
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
 }
 
 .identificaciontitulo {
@@ -317,6 +339,10 @@
   font-family: "Gothic A1", sans-serif;
   font-size: 25px;
   color: white;
+}
+
+.identificacionimg {
+  height: 600px;
 }
 
 .identificacionparrafo {
@@ -356,7 +382,10 @@
 }
 
 .compramayorcontainer {
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
 }
 
 .compramayortitulo {
@@ -409,5 +438,29 @@
   padding-left: 20px;
   padding-right: 20px;
   border: solid #E98125 3px;
+}
+
+.contacto {
+  background-color: #97979b;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contactocolumn {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactotitulo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 25px;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

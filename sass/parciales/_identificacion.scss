@@ -7,7 +7,10 @@
     margin-right: 10px;
     
       &container{
-        padding: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        padding-top: 10px;
     
     }
     
@@ -19,6 +22,10 @@
         font-size: 25px;
         color:$color_letrasfondonaranja;
     
+    }
+
+    &img{
+        height: 600px;
     }
 
     &parrafo{
@@ -51,6 +58,7 @@
         
     
     }
+    
     
 }
 
