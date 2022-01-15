@@ -55,14 +55,19 @@
         background-color: $color_principal;
         border: none;
         padding: 20px 8px;
-        border-radius: 3px;
-        cursor: pointer;   
+        border-radius: 3px;   
         color: $color_letrasfondonaranja;
+        transition: all 1s;
+        width: 400px;
     
     }
     
     &tituloref:hover {
-        background-color: $color_principal;
+        background-color: $color_masinfo;
+    transition: all 1s;
+    color: $color_letrasfondonaranja;
+
+
     }
     
     

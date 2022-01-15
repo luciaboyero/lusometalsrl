@@ -12,6 +12,29 @@
         align-items: center;
     
     }
+
+    
+    &columnparrafo{
+        margin-top: 10px;
+        text-align: center;
+        font-family: $font_principal;
+        font-size: 18 px;
+        color:$color_letrasfondonaranja;
+
+        
+    
+    }
+
+
+    &columnmaps{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+       
+        
+    
+    }
     
     &titulo{
         margin-top: 10px;

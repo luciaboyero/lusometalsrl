@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +18,7 @@
   <body >
     
     
-    <div class="containerdatos"> 
+    <div class="containerdatos rounded-3 shadow-sm" data-aos="fade-in"data-aos-once="true" > 
       <div class="row">
         <div class="col-md-4">
           <p>Av.cobo 1852,CABA</p>        
@@ -32,7 +33,7 @@
       </div>
 
     <!-- Nav --> 
-    <nav  class="navbar navbar-expand-lg navbar-light bg-light nav"  > 
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light nav" data-aos="fade-in" data-aos-once="true" > 
       <div class="container-fluid nav1">
         <a class="navbar-brand" href="#"> <img class="imglogo img-fluid" src="./imagenes/imglogo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,9 +47,17 @@
             <li class="nav-item ms-3">
               <a class="nav-link" href="./nosotros.html">Sobre nosotros</a>
             </li>
-            <li class="nav-item ms-3">
-              <a class="nav-link" href="./productos.html">Productos</a>
-            </li> 
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./productos.html">Caños</a></li>
+                <li><a class="dropdown-item" href="#">Hierros</a></li>
+                <li><a class="dropdown-item" href="#">Mallas</a></li>
+                <li><a class="dropdown-item" href="#">Planchuelas</a></li>
+              </ul>
+            </li>
             <li class="nav-item ms-3">
               <a class="nav-link" href="./fabricacion.html">Fabricacion propia</a>
             </li>
@@ -64,24 +73,24 @@
     </nav>  
    <!-- Nav final -->
 
-  <section class="nosotros">
+  <section class="nosotros rounded-3" data-aos="fade-in" data-aos-delay="100"data-aos-once="true">
     <h2 class="nosotrostitulo"> Sobre nosotros</h2>   
    <div class="nosotroscontainer">
     <div class="row">
        <div class="col-md-6 ">
-        <img src="./imagenes/frente.jpg" alt="" class="nosotrosindimg img-fluid">
+        <img src="./imagenes/frente.jpg" alt="" class="nosotrosindimg rounded-3 img-fluid" data-aos="zoom-in" data-aos-delay="200"data-aos-once="true">
         <p class="productosnom" >Lusometal SRL es una empresa proveedora de material de hierros en Buenos Aires. Llevamos más de 8 años, dando un servicio excelente, 
           con las soluciones más profesionales y con una relación calidad-precio muy competitiva.</p>
         
        </div>
        <div class="col-md-6">
        
-        <img src="./imagenes/pety.jpg" alt="" class="nosotrosindimg img-fluid">
+        <img src="./imagenes/pety.jpg" alt="" class="nosotrosindimg rounded-3 img-fluid" data-aos="zoom-in" data-aos-delay="200"data-aos-once="true">
         <p class="nosotrosnom">Trabajamos tanto para empresas como para particulares, solicite el material de hierros y acero que precise y
           en pocos días lo recibirá en cualquier punto. En Lusometal SRL tambien nos dedicamos a la fabricaciòn de metal desplegado.</p>
        </div>
        
-       <a class="nosotrostituloref" href="./contacto.html"> Mas informaciòn </a>           
+       <a class="nosotrostituloref position-relative shadow lg rounded" href="./contacto.html" data-aos="zoom-in" data-aos-delay="100"> Mas informaciòn </a>           
     </div>
   </section>
 
@@ -90,7 +99,7 @@
 
     <!-- Fotter  --> 
     
-  <footer class="footerindex">
+  <footer class="footerindex rounded-3" data-aos="fade-in" data-aos-once="true" >
     <div class="footercontainer"> 
       <div class="row">
         <div class="col-md-6">
@@ -111,6 +120,11 @@
   
     <!-- script de js! -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>

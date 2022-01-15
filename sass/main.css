@@ -90,10 +90,15 @@
   border-radius: 3px;
   cursor: pointer;
   color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .productostituloref:hover {
-  background-color: #E98125;
+  background-color: #5b5b5e;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  color: white;
 }
 
 .metal {
@@ -143,10 +148,15 @@
   border-radius: 3px;
   cursor: pointer;
   color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .metaltituloref:hover {
-  background-color: #E98125;
+  background-color: #5b5b5e;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  color: white;
 }
 
 .footerindex {
@@ -211,10 +221,15 @@
   border-radius: 3px;
   cursor: pointer;
   color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .nosotrostituloref:hover {
-  background-color: #E98125;
+  background-color: #5b5b5e;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  color: white;
 }
 
 .paginaproductos {
@@ -255,7 +270,10 @@
 }
 
 .paginaproductoscaños {
-  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .fabricacionpropia {
@@ -311,12 +329,17 @@
   border: none;
   padding: 20px 8px;
   border-radius: 3px;
-  cursor: pointer;
   color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  width: 400px;
 }
 
 .fabricacionpropiatituloref:hover {
-  background-color: #E98125;
+  background-color: #5b5b5e;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  color: white;
 }
 
 .identificacion {
@@ -374,6 +397,34 @@
           justify-content: center;
 }
 
+.identificaciontituloref {
+  margin-top: 10px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #E98125;
+  border: none;
+  padding: 20px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.identificaciontituloref:hover {
+  background-color: #5b5b5e;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  color: white;
+}
+
 .compramayor {
   background-color: #97979b;
   padding: 10px 20px;
@@ -406,6 +457,14 @@
   font-family: "Gothic A1", sans-serif;
   font-size: 18 px;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .compramayortitulonom {
@@ -416,7 +475,7 @@
   color: white;
 }
 
-.compramayorparrafo {
+.compramayortituloref {
   margin-top: 10px;
   text-align: center;
   display: -webkit-box;
@@ -427,6 +486,21 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #E98125;
+  border: none;
+  padding: 20px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.compramayortituloref:hover {
+  background-color: #5b5b5e;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  color: white;
 }
 
 .formulario {
@@ -448,6 +522,26 @@
 }
 
 .contactocolumn {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactocolumnparrafo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18 px;
+  color: white;
+}
+
+.contactocolumnmaps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
