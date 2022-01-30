@@ -58,6 +58,10 @@
         
     
     }
+
+
+
+    
     &tituloref{
         margin-top: 10px;
         text-align: center;
@@ -71,7 +75,7 @@
         cursor: pointer;   
         color: $color_letrasfondonaranja;
         transition: all 1s;
-    
+        width: 200px;
     }
     
     &tituloref:hover {

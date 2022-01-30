@@ -33,26 +33,36 @@
     color: $color_letrasfondonaranja;
 
 }  
-    &tituloref{
-    margin-top: 10px;
-    text-align: center;
-      display: flex;
-    align-content:center;
+&titulodivref{
+    display: flex;
+    align-content: center;
     justify-content: center;
-    background-color: $color_principal;
-    border: none;
-    padding: 20px 8px;
-    border-radius: 3px;
-    cursor: pointer;   
-    color: $color_letrasfondonaranja;
-    transition: all 1s;
+ 
+ }
 
-}  
-     &tituloref:hover {
-        background-color: $color_masinfo;
-        transition: all 1s;
-        color: $color_letrasfondonaranja;
-}
+ &tituloref{
+     margin-top: 20px;
+     text-align: center;
+     display: flex;
+     align-content:center;
+     justify-content: center;
+     background-color: $color_principal;
+     border: none;
+     padding: 20px 8px;
+     border-radius: 3px;   
+     color: $color_letrasfondonaranja;
+     transition: all 1s;
+     width: 200px;
+ 
+ }
+ 
+ &tituloref:hover {
+     background-color: $color_masinfo;
+ transition: all 1s;
+ color: $color_letrasfondonaranja;
+
+
+ }
 
 
 }

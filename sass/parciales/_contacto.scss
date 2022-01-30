@@ -20,16 +20,37 @@
         font-family: $font_principal;
         font-size: 18 px;
         color:$color_letrasfondonaranja;
-
         
+   
     
     }
+
+    &columninfo{      
+        position: relative;
+        margin: 0 auto; 
+        width: 650px;
+        
+    }
+
+    &columninfo2{      
+        position: absolute;
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: fit-content;
+  padding: 20px; 
+        
+    }
+    
 
 
     &columnmaps{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 10px;
+        padding-top: 20px;
         
        
         

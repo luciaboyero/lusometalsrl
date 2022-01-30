@@ -1,0 +1,43 @@
+@import "./variables";
+
+.paginamallas {
+    background-color: $color_contenedores;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+        
+
+    &titulo{
+        margin-top: 10px;
+        text-align: center;
+        font-family: $font_principal;
+        font-size: 25px;
+        color:$color_letrasfondonaranja; 
+    }
+    
+
+    &container{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        padding-top: 10px;
+        
+    }
+
+    &indimg{
+        height: 300px;
+        align-items: center;
+
+    }
+
+    &nom{
+    margin-top: 10px;
+    text-align: center;
+    font-family: $font_principal;
+    font-size: 18px;
+    color: $color_letrasfondonaranja;
+
+}  
+
+
+}

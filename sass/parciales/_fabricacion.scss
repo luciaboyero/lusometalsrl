@@ -46,6 +46,13 @@
     }
     
     
+    &titulodivref{
+       display: flex;
+       align-content: center;
+       justify-content: center;
+    
+    }
+
     &tituloref{
         margin-top: 10px;
         text-align: center;
@@ -58,7 +65,7 @@
         border-radius: 3px;   
         color: $color_letrasfondonaranja;
         transition: all 1s;
-        width: 400px;
+        width: 200px;
     
     }
     

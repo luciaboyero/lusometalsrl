@@ -131,8 +131,19 @@
   color: white;
 }
 
+.metaltitulodivref {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .metaltituloref {
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -146,10 +157,10 @@
   border: none;
   padding: 20px 8px;
   border-radius: 3px;
-  cursor: pointer;
   color: white;
   -webkit-transition: all 1s;
   transition: all 1s;
+  width: 200px;
 }
 
 .metaltituloref:hover {
@@ -204,8 +215,19 @@
   color: white;
 }
 
+.nosotrostitulodivref {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .nosotrostituloref {
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -219,10 +241,10 @@
   border: none;
   padding: 20px 8px;
   border-radius: 3px;
-  cursor: pointer;
   color: white;
   -webkit-transition: all 1s;
   transition: all 1s;
+  width: 200px;
 }
 
 .nosotrostituloref:hover {
@@ -276,6 +298,138 @@
   padding-right: 40px;
 }
 
+.paginahierros {
+  background-color: #97979b;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.paginahierrostitulo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.paginahierroscontainer {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.paginahierrosindimg {
+  height: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.paginahierrosnom {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.paginaproductoshierros {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.paginamallas {
+  background-color: #97979b;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.paginamallastitulo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.paginamallascontainer {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.paginamallasindimg {
+  height: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.paginamallasnom {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.paginaproductosmallas {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.paginachapas {
+  background-color: #97979b;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.paginachapastitulo {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.paginachapascontainer {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.paginachapasindimg {
+  height: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.paginachapasnom {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.paginaproductoschapas {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .fabricacionpropia {
   background-color: #97979b;
   padding: 10px 20px;
@@ -314,6 +468,17 @@
   color: white;
 }
 
+.fabricacionpropiatitulodivref {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .fabricacionpropiatituloref {
   margin-top: 10px;
   text-align: center;
@@ -332,7 +497,7 @@
   color: white;
   -webkit-transition: all 1s;
   transition: all 1s;
-  width: 400px;
+  width: 200px;
 }
 
 .fabricacionpropiatituloref:hover {
@@ -416,6 +581,7 @@
   color: white;
   -webkit-transition: all 1s;
   transition: all 1s;
+  width: 200px;
 }
 
 .identificaciontituloref:hover {
@@ -511,7 +677,6 @@
   padding: 10px 10px;
   padding-left: 20px;
   padding-right: 20px;
-  border: solid #E98125 3px;
 }
 
 .contacto {
@@ -538,6 +703,24 @@
   color: white;
 }
 
+.contactocolumninfo {
+  position: relative;
+  margin: 0 auto;
+  width: 650px;
+}
+
+.contactocolumninfo2 {
+  position: absolute;
+  bottom: 0;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px;
+}
+
 .contactocolumnmaps {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -548,6 +731,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 10px;
+  padding-top: 20px;
 }
 
 .contactotitulo {

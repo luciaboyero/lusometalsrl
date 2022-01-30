@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -34,7 +33,7 @@
       </div>
 
     <!-- Nav --> 
-    <nav  class="navbar navbar-expand-lg navbar-light bg-light nav" data-aos="fade-in" data-aos-once="true"  > 
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light nav" data-aos="fade-in" data-aos-once="true" > 
       <div class="container-fluid nav1">
         <a class="navbar-brand" href="#"> <img class="imglogo img-fluid" src="./imagenes/imglogo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,39 +74,54 @@
    <!-- Nav final -->
 
 
-    <!-- Compra al por mayor --> 
-    <section class="compramayor rounded-3"  data-aos="fade-in" data-aos-delay="100" data-aos-once="true" >
-        <h2 class="compramayortitulo">  Compra al por mayor</h2>    
-        <div class="compramayorcontainer">
+   
+<!-- Productos --> 
+<section class="paginachapas rounded-3" data-aos="fade-in" data-aos-delay="100" data-aos-once="true">
+  <h2 class="paginachapastitulo"> Chapas</h2>   
+ <div class="paginachapascontainer">
+  <div class="row">
+     <div class="col-md-4 ">
+      <p class="paginachapasnom" >Lisas</p>
+      <img src="./imagenes/chapaslisas.jpg" alt="" class="rounded-3 img-fluid" data-aos="zoom-in" data-aos-delay="200">
+     </div>
+     <div class="col-md-4">
+      <p class="paginachapasnom">Estampadas</p>
+      <img src="./imagenes/chapaest.jpg" alt="" class="rounded-3 img-fluid" data-aos="zoom-in" data-aos-delay="200">    
+     </div>
+     <div class="col-md-4">
+      <p class="paginachapasnom">Acanaladas</p>
+      <img src="./imagenes/chapaacanalada.jpg" alt="" class="rounded-3 img-fluid" data-aos="zoom-in" data-aos-delay="200" >    
+     </div>
+            
+  </div>
+</div>
+</section>
+<!-- Final Productos --> 
+
+      
+   <!-- Descripcion --> 
+     <div class="paginaproductoschapas rounded-3" data-aos="fade-in" data-aos-delay="100" data-aos-once="true"> 
         <div class="row">
           <div class="col-md-6">
-            <img class=" img-fluid rounded-3   img-rounded" src="./imagenes/cañosvarios.jpg" alt="metal"  data-aos="zoom-in" data-aos-delay="200" data-aos-once="true">
+            <p class="h3">Presentaciòn</p>
+            <p>Las chapas vienen en dos medidas diferentes de 2x1 mts y de 3x1.2 mts. <br>
+                 Y en diferentes espesores que van de 0,77 mm a 2,76 mm. </p>
           </div>
-       
-        <p class="col-md-6  compramayorparrafo" > 
-          Disponemos de vigas UPN / IPN, tubos, mallas, hierros (cuadrados, redondos, rectangulaes , planchuelas y ángulos) chapas, 
-          mallas electrosoldada, metales desplegados, y todo tipo de herrajes. <br> <br>
-          En definitiva, ofrecemos una gran variedad de productos para obra cubriendo todas las necesidades de nuestros clientes.
-          <br> <br> Trabajamos tanto para empresas como para particulares, solicite el material de hierros y acero que precise y en  pocos días lo 
-          recibirá en cualquier punto..
-          <br>
-          <br>
+          <div class="col-md-6">
+            <p class="h3">Usos</p>
+            <p>Las chapas acanaladas se utilizan para los techos. <br> 
+            Las chapas lisas y estampadas para puerta rejas y armados de herreria en general.</p>
+          </div>
+        </div> 
+      </div> 
 
-          <a class="compramayortituloref shadow lg rounded" href="./compraalpormayor.html"  data-aos="zoom-in" > Solicita tu presupuesto </a>   
-
-            <br>              
-            </p>        
-       </div>
-      </div>  
-     </section>
-
-   <!-- Final Compra al por mayor --> 
-
-</main> 
+      
+     <!-- final descripcion --> 
+      
 
 <!-- Fotter  --> 
 
-<footer class="footerindex rounded-3" data-aos="-in"fade data-aos-once="true" >
+<footer class="footerindex rounded-3" data-aos="fade-in"data-aos-once="true" >
 <div class="footercontainer"> 
   <div class="row">
     <div class="col-md-6">
@@ -130,10 +144,13 @@
 
 <!-- script de js! -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
 </script>
+
 </body>
 </html>
 
